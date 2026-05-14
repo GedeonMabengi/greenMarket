@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+    <linearGradient id="lg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <!-- Icône -->
+  <g transform="translate(80, 150) scale(0.55)">
+    <rect x="-128" y="-128" width="256" height="256" rx="64" fill="url(#lg1)"/>
+    <path d="M0,-120 C-66,-120 -120,-66 -120,0 C-120,80 0,180 0,180 C0,180 120,80 120,0 C120,-66 66,-120 0,-120 Z" fill="#ffffff" opacity="0.95"/>
+    <circle cx="0" cy="-10" r="70" fill="url(#lg2)"/>
+    <path d="M0,-55 C-35,-35 -50,5 -25,45 C-15,25 -5,15 0,15 C5,15 15,25 25,45 C50,5 35,-35 0,-55 Z" fill="#ffffff"/>
+    <path d="M0,-55 L0,15" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0,-20 L-20,-5" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0,-5 L18,8" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- Texte -->
+  <text x="260" y="130" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="72" font-weight="800" fill="#166534" letter-spacing="-1">Green</text>
+  <text x="260" y="210" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif" font-size="72" font-weight="800" fill="#15803d" letter-spacing="-1">Market</text>
+  <!-- Tagline -->
+  <text x="265" y="245" font-family="system-ui, sans-serif" font-size="18" font-weight="500" fill="#65a30d" letter-spacing="2">PRODUITS FRAIS · PRÈS DE CHEZ VOUS</text>
+</svg>

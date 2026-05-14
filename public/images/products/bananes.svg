@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffff0"/>
+      <stop offset="100%" stop-color="#fefcbf"/>
+    </linearGradient>
+    <linearGradient id="banane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6e05e"/>
+      <stop offset="100%" stop-color="#d69e2e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg3)"/>
+  <g transform="translate(130,100) rotate(-25)">
+    <path d="M20,20 Q60,10 100,30 Q130,50 120,100 Q110,140 80,150 Q50,160 30,140 Q10,120 15,80 Q20,40 20,20 Z" fill="url(#banane)"/>
+    <path d="M18,18 L25,12" stroke="#744210" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(200,120) rotate(15)">
+    <path d="M20,20 Q55,15 90,30 Q115,45 105,90 Q95,125 70,135 Q45,145 28,125 Q12,105 16,70 Q20,35 20,20 Z" fill="url(#banane)"/>
+    <path d="M18,18 L24,13" stroke="#744210" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#975a16">Bananes Plantain</text>
+</svg>

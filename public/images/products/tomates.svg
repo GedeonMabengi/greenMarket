@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff5f5"/>
+      <stop offset="100%" stop-color="#fed7d7"/>
+    </linearGradient>
+    <radialGradient id="tomate" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#fc8181"/>
+      <stop offset="60%" stop-color="#e53e3e"/>
+      <stop offset="100%" stop-color="#9b2c2c"/>
+    </radialGradient>
+    <radialGradient id="tomate2" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#f56565"/>
+      <stop offset="60%" stop-color="#c53030"/>
+      <stop offset="100%" stop-color="#742a2a"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <circle cx="160" cy="140" r="55" fill="url(#tomate)"/>
+  <circle cx="240" cy="160" r="45" fill="url(#tomate2)"/>
+  <path d="M150 90 Q160 70 170 90" stroke="#276749" stroke-width="4" fill="none"/>
+  <ellipse cx="165" cy="85" rx="8" ry="4" fill="#48bb78" transform="rotate(-20 165 85)"/>
+  <ellipse cx="155" cy="88" rx="8" ry="4" fill="#38a169" transform="rotate(30 155 88)"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#742a2a">Tomates Bio</text>
+</svg>

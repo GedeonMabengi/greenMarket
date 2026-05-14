@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg11" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="miel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg11)"/>
+  <g transform="translate(170,90)">
+    <path d="M5,20 L55,20 L60,30 L55,100 Q55,110 45,110 L15,110 Q5,110 5,100 L0,30 Z" fill="url(#miel)" stroke="#b45309" stroke-width="2"/>
+    <ellipse cx="30" cy="20" rx="28" ry="8" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+    <ellipse cx="30" cy="20" rx="22" ry="5" fill="#fbbf24"/>
+    <rect x="22" y="8" width="16" height="8" rx="2" fill="#fde68a"/>
+    <!-- reflet -->
+    <ellipse cx="20" cy="50" rx="4" ry="15" fill="#fde68a" opacity="0.4"/>
+  </g>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#92400e">Miel Pur</text>
+</svg>

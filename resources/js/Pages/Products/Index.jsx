@@ -1,6 +1,12 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head, Link, useForm } from '@inertiajs/react';
 
+function imageUrl(path) {
+    if (!path) return null;
+    if (path.startsWith('http') || path.startsWith('/images/')) return path;
+    return `/storage/${path}`;
+}
+
 export default function Index({ auth, products }) {
     const { delete: destroy } = useForm();
 
@@ -61,7 +67,7 @@ export default function Index({ auth, products }) {
                                                 <div className="flex items-center">
                                                     <div className="h-10 w-10 rounded bg-gray-200 flex-shrink-0 overflow-hidden">
                                                         {product.image ? (
-                                                            <img src={`/storage/${product.image}`} alt="" className="h-full w-full object-cover" />
+                                                            <img src={imageUrl(product.image)} alt="" className="h-full w-full object-cover" />
                                                         ) : (
                                                             <div className="h-full w-full flex items-center justify-center text-gray-400 text-xs">N/A</div>
                                                         )}

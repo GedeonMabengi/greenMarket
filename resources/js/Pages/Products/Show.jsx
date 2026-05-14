@@ -1,9 +1,16 @@
 import { Head, Link } from '@inertiajs/react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
-import GuestLayout from '@/Layouts/GuestLayout';
+import PublicLayout from '@/Layouts/PublicLayout';
+
+function imageUrl(path) {
+    if (!path) return null;
+    if (path.startsWith('http') || path.startsWith('/images/')) return path;
+    return `/storage/${path}`;
+}
 
 export default function Show({ auth, product }) {
-    const Layout = auth?.user ? AuthenticatedLayout : GuestLayout;
+    const Layout = auth?.user ? AuthenticatedLayout : PublicLayout;
+    const img = imageUrl(product.image);
 
     return (
         <Layout>
@@ -14,9 +21,9 @@ export default function Show({ auth, product }) {
                     <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                             <div className="h-64 md:h-auto bg-gray-200 flex items-center justify-center">
-                                {product.image ? (
+                                {img ? (
                                     <img
-                                        src={`/storage/${product.image}`}
+                                        src={img}
                                         alt={product.name}
                                         className="w-full h-full object-cover"
                                     />

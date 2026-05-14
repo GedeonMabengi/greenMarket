@@ -49,18 +49,18 @@ class DatabaseSeeder extends Seeder
 
         // Create products for each seller
         $productTemplates = [
-            ['name' => 'Tomates bio', 'unit' => 'kg', 'category_id' => 1],
-            ['name' => 'Carottes fraîches', 'unit' => 'botte', 'category_id' => 1],
-            ['name' => 'Bananes plantain', 'unit' => 'botte', 'category_id' => 2],
-            ['name' => 'Oranges', 'unit' => 'kg', 'category_id' => 2],
-            ['name' => 'Riz local', 'unit' => 'kg', 'category_id' => 3],
-            ['name' => 'Maïs', 'unit' => 'kg', 'category_id' => 3],
-            ['name' => 'Lait frais', 'unit' => 'litre', 'category_id' => 4],
-            ['name' => 'Fromage fermier', 'unit' => 'unité', 'category_id' => 4],
-            ['name' => 'Poulet de chair', 'unit' => 'unité', 'category_id' => 5],
-            ['name' => 'Œufs de ferme', 'unit' => 'douzaine', 'category_id' => 6],
-            ['name' => 'Miel pur', 'unit' => 'litre', 'category_id' => 7],
-            ['name' => 'Aloe vera', 'unit' => 'unité', 'category_id' => 8],
+            ['name' => 'Tomates bio', 'unit' => 'kg', 'category_id' => 1, 'image' => '/images/products/tomates.svg'],
+            ['name' => 'Carottes fraîches', 'unit' => 'botte', 'category_id' => 1, 'image' => '/images/products/carottes.svg'],
+            ['name' => 'Bananes plantain', 'unit' => 'botte', 'category_id' => 2, 'image' => '/images/products/bananes.svg'],
+            ['name' => 'Oranges', 'unit' => 'kg', 'category_id' => 2, 'image' => '/images/products/oranges.svg'],
+            ['name' => 'Riz local', 'unit' => 'kg', 'category_id' => 3, 'image' => '/images/products/riz.svg'],
+            ['name' => 'Maïs', 'unit' => 'kg', 'category_id' => 3, 'image' => '/images/products/mais.svg'],
+            ['name' => 'Lait frais', 'unit' => 'litre', 'category_id' => 4, 'image' => '/images/products/lait.svg'],
+            ['name' => 'Fromage fermier', 'unit' => 'unité', 'category_id' => 4, 'image' => '/images/products/fromage.svg'],
+            ['name' => 'Poulet de chair', 'unit' => 'unité', 'category_id' => 5, 'image' => '/images/products/poulet.svg'],
+            ['name' => 'Œufs de ferme', 'unit' => 'douzaine', 'category_id' => 6, 'image' => '/images/products/oeufs.svg'],
+            ['name' => 'Miel pur', 'unit' => 'litre', 'category_id' => 7, 'image' => '/images/products/miel.svg'],
+            ['name' => 'Aloe vera', 'unit' => 'unité', 'category_id' => 8, 'image' => '/images/products/aloe.svg'],
         ];
 
         foreach ($sellers as $seller) {
@@ -77,7 +77,7 @@ class DatabaseSeeder extends Seeder
                     'price' => rand(500, 10000),
                     'quantity' => rand(10, 200),
                     'unit' => $template['unit'],
-                    'image' => null,
+                    'image' => $template['image'] ?? null,
                     'latitude' => $seller->latitude,
                     'longitude' => $seller->longitude,
                     'is_available' => true,

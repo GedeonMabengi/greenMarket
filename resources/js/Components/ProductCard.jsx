@@ -1,12 +1,20 @@
 import { Link } from '@inertiajs/react';
 
+function imageUrl(path) {
+    if (!path) return null;
+    if (path.startsWith('http') || path.startsWith('/images/')) return path;
+    return `/storage/${path}`;
+}
+
 export default function ProductCard({ product }) {
+    const img = imageUrl(product.image);
+
     return (
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
             <div className="h-48 bg-gray-200 relative">
-                {product.image ? (
+                {img ? (
                     <img
-                        src={`/storage/${product.image}`}
+                        src={img}
                         alt={product.name}
                         className="w-full h-full object-cover"
                     />

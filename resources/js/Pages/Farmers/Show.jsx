@@ -1,10 +1,10 @@
 import { Head, Link } from '@inertiajs/react';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
-import GuestLayout from '@/Layouts/GuestLayout';
+import PublicLayout from '@/Layouts/PublicLayout';
 import ProductCard from '@/Components/ProductCard';
 
 export default function Show({ auth, farmer, products }) {
-    const Layout = auth?.user ? AuthenticatedLayout : GuestLayout;
+    const Layout = auth?.user ? AuthenticatedLayout : PublicLayout;
 
     return (
         <Layout>

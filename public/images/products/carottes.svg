@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffaf0"/>
+      <stop offset="100%" stop-color="#feebc8"/>
+    </linearGradient>
+    <linearGradient id="carotte" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6ad55"/>
+      <stop offset="100%" stop-color="#dd6b20"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg2)"/>
+  <g transform="translate(160,110) rotate(-15)">
+    <polygon points="0,0 25,110 35,110 10,0" fill="url(#carotte)" rx="5"/>
+    <polygon points="15,0 40,105 50,100 30,0" fill="#ed8936" rx="5"/>
+    <path d="M5 -5 Q-5 -20 5 -35" stroke="#48bb78" stroke-width="3" fill="none"/>
+    <path d="M15 -5 Q20 -25 10 -40" stroke="#38a169" stroke-width="3" fill="none"/>
+  </g>
+  <g transform="translate(220,130) rotate(10)">
+    <polygon points="0,0 20,90 28,90 8,0" fill="url(#carotte)" rx="5"/>
+    <path d="M5 -5 Q-2 -15 5 -25" stroke="#48bb78" stroke-width="2.5" fill="none"/>
+  </g>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#c05621">Carottes Fraîches</text>
+</svg>
