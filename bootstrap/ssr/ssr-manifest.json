@@ -1,13 +1,10 @@
 {
   "node_modules/laravel-vite-plugin/inertia-helpers/index.js": [],
-  "resources/js/Components/ApplicationLogo.jsx": [
-    "/build/assets/GuestLayout-DaSCEquR.js"
-  ],
   "resources/js/Components/Checkbox.jsx": [
-    "/build/assets/Login-UwA5zE1G.js"
+    "/build/assets/Login-CcwiJ-5J.js"
   ],
   "resources/js/Components/DangerButton.jsx": [
-    "/build/assets/DeleteUserForm-DNZJ75vO.js"
+    "/build/assets/DeleteUserForm-BNkdKUPG.js"
   ],
   "resources/js/Components/Dropdown.jsx": [
     "/build/assets/AuthenticatedLayout-mCfdzK-q.js"
@@ -19,22 +16,25 @@
     "/build/assets/InputLabel-CE_n4Upz.js"
   ],
   "resources/js/Components/Modal.jsx": [
-    "/build/assets/DeleteUserForm-DNZJ75vO.js"
+    "/build/assets/DeleteUserForm-BNkdKUPG.js"
   ],
   "resources/js/Components/NavLink.jsx": [
     "/build/assets/AuthenticatedLayout-mCfdzK-q.js"
   ],
+  "resources/js/Components/PasswordInput.jsx": [
+    "/build/assets/PasswordInput-DmyIXOUG.js"
+  ],
   "resources/js/Components/PrimaryButton.jsx": [
-    "/build/assets/PrimaryButton-DgVfVBwo.js"
+    "/build/assets/PrimaryButton-Ddzahq4T.js"
   ],
   "resources/js/Components/ProductCard.jsx": [
-    "/build/assets/ProductCard-BnaGfXzs.js"
+    "/build/assets/ProductCard-CgycjFVs.js"
   ],
   "resources/js/Components/ResponsiveNavLink.jsx": [
     "/build/assets/AuthenticatedLayout-mCfdzK-q.js"
   ],
   "resources/js/Components/SecondaryButton.jsx": [
-    "/build/assets/DeleteUserForm-DNZJ75vO.js"
+    "/build/assets/DeleteUserForm-BNkdKUPG.js"
   ],
   "resources/js/Components/TextInput.jsx": [
     "/build/assets/TextInput-MzM3hN_S.js"
@@ -43,61 +43,64 @@
     "/build/assets/AuthenticatedLayout-mCfdzK-q.js"
   ],
   "resources/js/Layouts/GuestLayout.jsx": [
-    "/build/assets/GuestLayout-DaSCEquR.js"
+    "/build/assets/GuestLayout-BXJLo8pF.js"
+  ],
+  "resources/js/Layouts/PublicLayout.jsx": [
+    "/build/assets/PublicLayout-Mr_Z2lRD.js"
   ],
   "resources/js/Pages/Auth/ConfirmPassword.jsx": [
-    "/build/assets/ConfirmPassword-DVcUfnZE.js"
+    "/build/assets/ConfirmPassword-DmEx1ueL.js"
   ],
   "resources/js/Pages/Auth/ForgotPassword.jsx": [
-    "/build/assets/ForgotPassword-CAOa-CHX.js"
+    "/build/assets/ForgotPassword-GIoCusLt.js"
   ],
   "resources/js/Pages/Auth/Login.jsx": [
-    "/build/assets/Login-UwA5zE1G.js"
+    "/build/assets/Login-CcwiJ-5J.js"
   ],
   "resources/js/Pages/Auth/Register.jsx": [
-    "/build/assets/Register-CZGqD4q2.js"
+    "/build/assets/Register-D_g5vQWh.js"
   ],
   "resources/js/Pages/Auth/ResetPassword.jsx": [
-    "/build/assets/ResetPassword-CHN2dbFG.js"
+    "/build/assets/ResetPassword-ifPBsFsw.js"
   ],
   "resources/js/Pages/Auth/VerifyEmail.jsx": [
-    "/build/assets/VerifyEmail-BsPTu5x5.js"
+    "/build/assets/VerifyEmail-DBP2NNZM.js"
   ],
   "resources/js/Pages/Dashboard.jsx": [
     "/build/assets/Dashboard-B3H2G_vy.js"
   ],
   "resources/js/Pages/Farmers/Show.jsx": [
-    "/build/assets/Show-DpKgiIad.js"
+    "/build/assets/Show-DKDTx_gX.js"
   ],
   "resources/js/Pages/Marketplace/Index.jsx": [
-    "/build/assets/Index-D2PUMOd3.js"
+    "/build/assets/Index-DudjUY6c.js"
   ],
   "resources/js/Pages/Orders/Index.jsx": [
     "/build/assets/Index-B3TbqCyq.js"
   ],
   "resources/js/Pages/Products/Create.jsx": [
-    "/build/assets/Create-CsSUOM9w.js"
+    "/build/assets/Create-CIkdDIcx.js"
   ],
   "resources/js/Pages/Products/Edit.jsx": [
-    "/build/assets/Edit-1Wglmi5r.js"
+    "/build/assets/Edit-BbXLMiks.js"
   ],
   "resources/js/Pages/Products/Index.jsx": [
-    "/build/assets/Index-j_XnL4qm.js"
+    "/build/assets/Index-DtRbufvQ.js"
   ],
   "resources/js/Pages/Products/Show.jsx": [
-    "/build/assets/Show-BRMPHb_a.js"
+    "/build/assets/Show-CqPsBiZg.js"
   ],
   "resources/js/Pages/Profile/Edit.jsx": [
-    "/build/assets/Edit-C3EVHdYR.js"
+    "/build/assets/Edit-DTHpHOhu.js"
   ],
   "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx": [
-    "/build/assets/DeleteUserForm-DNZJ75vO.js"
+    "/build/assets/DeleteUserForm-BNkdKUPG.js"
   ],
   "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx": [
-    "/build/assets/UpdatePasswordForm-Cuzb9Qpo.js"
+    "/build/assets/UpdatePasswordForm-BBKroAjk.js"
   ],
   "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx": [
-    "/build/assets/UpdateProfileInformationForm-D7LWqtVV.js"
+    "/build/assets/UpdateProfileInformationForm-fWYqUJjg.js"
   ],
   "resources/js/Pages/Welcome.jsx": [
     "/build/assets/Welcome-BWkSrG2I.js"
